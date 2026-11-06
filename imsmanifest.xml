@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SCORM-1.2-Paket für Moodle: eine Lerneinheit (index.html). Sie speichert ihren Stand in Moodle
+     und meldet sich als abgeschlossen, wenn alle Selbstchecks der Schritte 1–8 erledigt sind. -->
+<manifest identifier="igse-physik-fotoeffekt-simulation" version="1.0"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="org-fotoeffekt">
+    <organization identifier="org-fotoeffekt">
+      <title>Der Fotoeffekt – Simulation</title>
+      <item identifier="item-fotoeffekt" identifierref="res-fotoeffekt" isvisible="true">
+        <title>Der Fotoeffekt – Simulation</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="res-fotoeffekt" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+    </resource>
+  </resources>
+</manifest>
